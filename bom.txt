@@ -1,0 +1,10 @@
+Neopixels:
+- https://www.adafruit.com/product/1655#technical-details
+- https://cdn-shop.adafruit.com/product-files/1655/SKC6812RV__12VOP0274E_REV.A1_EN%2812%29.pdf
+- SKC6812RV
+- SMD5050 package
+Logic Level Converter for Neopixels:
+- https://www.mouser.com/ProductDetail/Diodes-Incorporated/74LVC1T45DW-7?qs=Oxncjon6mbplzGvxR3UXkA%3D%3D
+- https://www.diodes.com/assets/Datasheets/74LVC1T45.pdf
+- 74LVC1T45
+- SOT-363-6 package
