@@ -8,3 +8,8 @@ Logic Level Converter for Neopixels:
 - https://www.diodes.com/assets/Datasheets/74LVC1T45.pdf
 - 74LVC1T45
 - SOT-363-6 package
+DMG2301L:
+-  DMG2305UX-7
+-  https://www.mouser.com/ProductDetail/Diodes-Incorporated/DMG2305UX-7?qs=L1DZKBg7t5F%2FNBHrjfxC%252Bg%3D%3D
+-  https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf
+-  SOT-23-3 package
