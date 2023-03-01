@@ -1,7 +1,7 @@
 Neopixels:
+- SKC6812RV
 - https://www.adafruit.com/product/1655#technical-details
 - https://cdn-shop.adafruit.com/product-files/1655/SKC6812RV__12VOP0274E_REV.A1_EN%2812%29.pdf
-- SKC6812RV
 - SMD5050 package
 Logic Level Converter for Neopixels:
 - https://www.mouser.com/ProductDetail/Diodes-Incorporated/74LVC1T45DW-7?qs=Oxncjon6mbplzGvxR3UXkA%3D%3D
@@ -12,4 +12,67 @@ DMG2301L:
 -  DMG2305UX-7
 -  https://www.mouser.com/ProductDetail/Diodes-Incorporated/DMG2305UX-7?qs=L1DZKBg7t5F%2FNBHrjfxC%252Bg%3D%3D
 -  https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf
+-  SOT-23-3 package
+Polyfuse 1A:
+-  1206L050/15YR
+-  https://www.mouser.com/ProductDetail/Littelfuse/1206L050-15YR?qs=PWhpLWeW8wdxWp9etyyAeA%3D%3D
+-  https://www.mouser.com/datasheet/2/240/Littelfuse_PTC_1206L_Datasheet_pdf-2956361.pdf
+-  1206 package
+Polyfuse 3A:
+-  1812L150/12DR
+-  https://www.mouser.com/ProductDetail/Littelfuse/1812L150-12DR?qs=PWhpLWeW8weemaDjnz306A%3D%3D
+-  https://www.mouser.com/datasheet/2/240/Littelfuse_PTC_1812L_Datasheet_pdf-2956345.pdf
+-  1812 package
+Polyfuse 4A:
+-  1210L200PR
+-  https://www.mouser.com/ProductDetail/Littelfuse/1210L200PR?qs=fp%2Fo%2FcJ74okkLi5u9VPdVA%3D%3D
+-  https://www.mouser.com/datasheet/2/240/Littelfuse_PTC_1210L_Datasheet_pdf-2956335.pdf
+-  1210 package
+Reset Pushbutton:
+-  A9PS26-0011
+-  https://www.mouser.com/ProductDetail/Omron-Electronics/A9PS26-0011?qs=BC3YYPaifMp1t6d3QnTyQg%3D%3D
+-  https://www.mouser.com/datasheet/2/307/A9PS-1189575.pdf
+-  Unknown package
+Red LED:
+-  150060RS75000
+-  https://www.mouser.com/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D
+-  https://www.mouser.com/datasheet/2/445/150060RS75000-3085045.pdf
+-  0603 package
+Red LED 200 Ohm Resistor:
+-  Basically any 0.150W capable 200 Ohm thin film resistor with a 1206 package
+-  https://www.mouser.com/ProductDetail/SEI-Stackpole/RNCP1206FTD200R?qs=FESYatJ8odJUOfldJK0Z5Q%3D%3D
+-  1206 package
+10 uF Bypass Capacitor:
+-  CL21X106KAYQNWE
+-  https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21X106KAYQNWE?qs=sGAEpiMZZMukHu%252BjC5l7YV1YEfLrZBZaEtSxNgcHNf4%3D
+-  0805 package
+0.1 uF Bypass Capacitor:
+-  C0805C104K5RAC7411
+-  https://www.mouser.com/ProductDetail/KEMET/C0805C104K5RAC7411?qs=sGAEpiMZZMsh%252B1woXyUXjwJnusVcbgzI8obGGNbqUus%3D
+-  https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf
+-  0805 package
+4.7kOhm pull-up resistors:
+-  RT0805FRE104K7L
+-  https://www.mouser.com/ProductDetail/YAGEO/RT0805FRE104K7L?qs=F5EMLAvA7IA78JN7e5Tg8A%3D%3D
+-  https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf
+-  0805 package
+10 kOhm resistors for voltage dividers:
+-  RNCP0603FTD10K0
+-  https://www.mouser.com/ProductDetail/SEI-Stackpole/RNCP0603FTD10K0?qs=FESYatJ8odL1jmHQSpKOPg%3D%3D
+-  https://www.mouser.com/datasheet/2/385/SEI_rncp-3077653.pdf
+-  0603 package
+8 kOhm resistors for voltage dividers: (Adjusted downwards to 6.04 kOhms to get parts)
+-  RT0805FRE136K04L
+-  https://www.mouser.com/ProductDetail/YAGEO/RT0805FRE136K04L?qs=1mbolxNpo8cOt%2FlewXkSqg%3D%3D
+-  https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf
+-  0805 package
+470 Ohm NeoPixel Protection resistor:
+-  RT0603FRE07470RL
+-  https://www.mouser.com/ProductDetail/YAGEO/RT0603FRE07470RL?qs=%2Ff7pOCXLR5d53w%2FSpDuUeQ%3D%3D
+-  https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf
+-  0603 package
+Watchdog Resetting NFET
+-  DMN62D0UT-7
+-  https://www.mouser.com/ProductDetail/Diodes-Incorporated/DMN62D0UT-7?qs=Ey7%2FXF42M3fjG6itVmgiCg%3D%3D
+-  https://www.mouser.com/datasheet/2/115/Diodes-03-05-2018-DMN62D0UT_R3-1310009.pdf
 -  SOT-23-3 package
