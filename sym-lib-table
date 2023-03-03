@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/KiCad-RP-Pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
+  (lib (name "ASMPR45-1X2-RK")(type "KiCad")(uri "${KIPRJMOD}/ASMPR45-1X2-RK.kicad_sym")(options "")(descr ""))
 )
