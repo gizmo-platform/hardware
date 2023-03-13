@@ -2,13 +2,15 @@ Neopixels:
 - SKC6812RV
 - https://www.adafruit.com/product/1655#technical-details
 - https://cdn-shop.adafruit.com/product-files/1655/SKC6812RV__12VOP0274E_REV.A1_EN%2812%29.pdf
+- https://www.mouser.com/ProductDetail/Adafruit/1655?qs=GURawfaeGuATdkjqVQs49g%3D%3D
+- https://www.mouser.com/datasheet/2/737/SK6812_LED_datasheet_-953546.pdf
 - SMD5050 package
 Logic Level Converter for Neopixels:
 - https://www.mouser.com/ProductDetail/Diodes-Incorporated/74LVC1T45DW-7?qs=Oxncjon6mbplzGvxR3UXkA%3D%3D
 - https://www.diodes.com/assets/Datasheets/74LVC1T45.pdf
 - 74LVC1T45
 - SOT-363-6 package
-DMG2301L:
+DMG2301L (power disconnect when USB applied to pico):
 -  DMG2305UX-7
 -  https://www.mouser.com/ProductDetail/Diodes-Incorporated/DMG2305UX-7?qs=L1DZKBg7t5F%2FNBHrjfxC%252Bg%3D%3D
 -  https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf
@@ -76,3 +78,13 @@ Watchdog Resetting NFET
 -  https://www.mouser.com/ProductDetail/Diodes-Incorporated/DMN62D0UT-7?qs=Ey7%2FXF42M3fjG6itVmgiCg%3D%3D
 -  https://www.mouser.com/datasheet/2/115/Diodes-03-05-2018-DMN62D0UT_R3-1310009.pdf
 -  SOT-23-3 package
+3.3v Voltage Regulator
+-  MCP1826S-3302E/AB
+-  https://www.mouser.com/ProductDetail/Microchip-Technology-Atmel/MCP1826S-3302E-AB?qs=gsqZ4L1luKrs1V8F4RYdLQ%3D%3D
+-  https://www.mouser.com/datasheet/2/268/MCP1826_MCP1826S_1000_mA_2c_Low_Voltage_2c_Low_Qui-2325821.pdf
+-  TO-220-3 package with Gnd in the middle
+5v Voltage Regulator
+-  L4941BV
+-  https://www.mouser.com/ProductDetail/STMicroelectronics/L4941BV?qs=at%2FPaO0D8JZ1KhePOa%252B5Wg%3D%3D
+-  https://www.mouser.com/datasheet/2/389/l4941-1849246.pdf
+-  TO-220-3 package with Gnd in the middle
