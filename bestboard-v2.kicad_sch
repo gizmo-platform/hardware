@@ -7476,7 +7476,7 @@
     (property "JLC" "SC-70-6" (at 95.25 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Field5" "C9382" (at 95.25 168.91 0)
+    (property "LCSC" "C9382" (at 95.25 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8e49afda-07fb-4766-b3af-198f8a1d9448))
