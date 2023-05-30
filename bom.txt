@@ -40,10 +40,8 @@ Red LED:
 -  https://www.mouser.com/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D
 -  https://www.mouser.com/datasheet/2/445/150060RS75000-3085045.pdf
 -  0603 package
-Red LED 200 Ohm Resistor:
--  Basically any 0.150W capable 200 Ohm thin film resistor with a 1206 package
--  https://www.mouser.com/ProductDetail/SEI-Stackpole/RNCP1206FTD200R?qs=FESYatJ8odJUOfldJK0Z5Q%3D%3D
--  1206 package
+LED 1kOhm Resistor:
+-  0805 package
 10 uF Bypass Capacitor:
 -  CL21X106KAYQNWE
 -  https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21X106KAYQNWE?qs=sGAEpiMZZMukHu%252BjC5l7YV1YEfLrZBZaEtSxNgcHNf4%3D
@@ -58,15 +56,9 @@ Red LED 200 Ohm Resistor:
 -  https://www.mouser.com/ProductDetail/YAGEO/RT0805FRE104K7L?qs=F5EMLAvA7IA78JN7e5Tg8A%3D%3D
 -  https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf
 -  0805 package
-10 kOhm resistors for voltage dividers:
--  RNCP0603FTD10K0
--  https://www.mouser.com/ProductDetail/SEI-Stackpole/RNCP0603FTD10K0?qs=FESYatJ8odL1jmHQSpKOPg%3D%3D
--  https://www.mouser.com/datasheet/2/385/SEI_rncp-3077653.pdf
--  0603 package
-8 kOhm resistors for voltage dividers: (Adjusted downwards to 6.04 kOhms to get parts)
--  RT0805FRE136K04L
--  https://www.mouser.com/ProductDetail/YAGEO/RT0805FRE136K04L?qs=1mbolxNpo8cOt%2FlewXkSqg%3D%3D
--  https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf
+1.5 MOhm resistors for voltage dividers:
+-  0805 package
+1.0 MOhm resistors for voltage dividers:
 -  0805 package
 470 Ohm NeoPixel Protection resistor:
 -  RT0603FRE07470RL
