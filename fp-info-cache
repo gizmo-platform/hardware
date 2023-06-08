@@ -1,43 +1,22 @@
-10065306411769
-MCU_RaspberryPi_and_Boards
-APP_ASMPR45-1X2-RK
+5051990692833
+push-switch
+949
+949
+Connector
+0
+8
+8
+push-switch
+PTS526SM15SMTR2LFS
+PTS526 SM15 SMTR2 LFS-2
+Switch
+0
+4
+4
+push-switch
+SW_TS-1187A-B-A-B
 
 
 0
-7
-7
-MCU_RaspberryPi_and_Boards
-Crystal_SMD_HC49-US
-SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
-SMD SMT crystal
-0
-2
-2
-MCU_RaspberryPi_and_Boards
-RP2040-QFN-56
-QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
-0
-70
-57
-MCU_RaspberryPi_and_Boards
-RPi_Pico_SMD_TH
-Through hole straight pin header, 2x20, 2.54mm pitch, double rows
-Through hole pin header THT 2x20 2.54mm double row
-0
-86
-43
-MCU_RaspberryPi_and_Boards
-best-robotics-logo
-
-
-0
-0
-0
-MCU_RaspberryPi_and_Boards
-best-robotics-logo-smaller
-
-
-0
-0
-0
+4
+4
