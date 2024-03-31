@@ -7531,161 +7531,6 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_DIP_x01"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_DIP_x01"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "dip switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW?DIP?x1*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_DIP_x01_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.127) (xy 2.3622 1.1684)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DIP_x01_0_1"
-				(rectangle
-					(start -3.81 2.54)
-					(end 3.81 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SW_DIP_x01_1_1"
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Transistor_FET:DMG2301L"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -8698,12 +8543,6 @@
 		(uuid "c8cf7d18-d414-4df5-9859-01f3480476ab")
 	)
 	(junction
-		(at -10.16 -36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d14ed436-a701-471f-afab-88fc58814cee")
-	)
-	(junction
 		(at 171.45 -67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9587,16 +9426,6 @@
 	)
 	(wire
 		(pts
-			(xy -27.94 -44.45) (xy -27.94 -36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41db50e4-c782-46a0-a74e-055aa7d06f65")
-	)
-	(wire
-		(pts
 			(xy 128.27 -68.58) (xy 147.32 -68.58)
 		)
 		(stroke
@@ -9744,16 +9573,6 @@
 			(type default)
 		)
 		(uuid "4b2d2201-53c0-4c04-ba75-2eb416b9e888")
-	)
-	(wire
-		(pts
-			(xy -11.43 -36.83) (xy -10.16 -36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b373618-70d8-418f-913c-b29c705e91d2")
 	)
 	(wire
 		(pts
@@ -10437,16 +10256,6 @@
 	)
 	(wire
 		(pts
-			(xy -10.16 -36.83) (xy 0 -36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "892ab472-7a1e-4ff0-b779-26d05027cd9f")
-	)
-	(wire
-		(pts
 			(xy 62.23 -43.18) (xy 83.82 -43.18)
 		)
 		(stroke
@@ -10917,16 +10726,6 @@
 	)
 	(wire
 		(pts
-			(xy -27.94 -36.83) (xy -26.67 -36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac0c34ce-3a7b-4f8a-8026-ad2e7b649ba8")
-	)
-	(wire
-		(pts
 			(xy 123.19 -86.36) (xy 125.73 -86.36)
 		)
 		(stroke
@@ -11134,16 +10933,6 @@
 			(type default)
 		)
 		(uuid "bb9e61ab-a338-4894-9b48-839c034603f2")
-	)
-	(wire
-		(pts
-			(xy -26.67 -44.45) (xy -27.94 -44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc641567-d60b-4b05-b07c-4ea432ae6f21")
 	)
 	(wire
 		(pts
@@ -13228,6 +13017,28 @@
 			)
 		)
 	)
+	(global_label "rst_wizzy"
+		(shape output)
+		(at 146.05 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7499413f-0f0a-46c1-b180-87bc58980c4c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.5019 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "S_PICO_GP_13"
 		(shape bidirectional)
 		(at 180.34 105.41 180)
@@ -13448,28 +13259,6 @@
 			)
 		)
 	)
-	(global_label "3.3v_SYS_REF"
-		(shape passive)
-		(at -26.67 -44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "899e42ba-7190-4bec-ab41-2fccd766fc50")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -11.8543 -44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBAT_SERVO"
 		(shape passive)
 		(at 40.64 132.08 0)
@@ -13576,28 +13365,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "rst_system"
-		(shape input)
-		(at 97.79 -55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "91054eb6-1c6f-4ae6-bc6d-d8541de487a2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.7658 -55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -13778,6 +13545,28 @@
 			)
 		)
 	)
+	(global_label "rst_wizzy"
+		(shape input)
+		(at 97.79 -55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "981670c1-5b05-469c-af5e-ee28cf8f8c41")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.3381 -55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3.3V GPIO"
 		(shape passive)
 		(at 243.84 154.94 90)
@@ -13928,6 +13717,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "rst_wizzy"
+		(shape input)
+		(at 50.8 -63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8b80ad5-1a06-40a9-ac88-b4195b79514a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.3481 -63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -23827,6 +23638,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 50.8 -63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ef7887d-6960-4f95-8363-9b0d1405c7ec")
+		(property "Reference" "TP1"
+			(at 55.88 -64.7701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ResetWizzy"
+			(at 55.88 -62.2301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 50.8 -58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 -58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 -63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f148cc4-515d-4fc6-a5f9-b1de1aad5710")
+		)
+		(instances
+			(project "bestboard-v2"
+				(path "/8c11e168-0da2-4000-91ca-89865f7afe4e"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 68.58 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24092,72 +23970,6 @@
 			(project "bestboard-v2"
 				(path "/8c11e168-0da2-4000-91ca-89865f7afe4e"
 					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at -10.16 -44.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "81aceffe-8eb9-41ad-abe9-8c9bcc63f833")
-		(property "Reference" "#PWR047"
-			(at -10.16 -50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at -13.97 -48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at -10.16 -44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -10.16 -44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -10.16 -44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e0277c8-23ac-486f-90f1-2d64a3c906fa")
-		)
-		(instances
-			(project "bestboard-v2"
-				(path "/8c11e168-0da2-4000-91ca-89865f7afe4e"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -24919,112 +24731,6 @@
 			(project "bestboard-v2"
 				(path "/8c11e168-0da2-4000-91ca-89865f7afe4e"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at -10.16 -40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c806587-52ad-461e-97d7-2192a8323cd8")
-		(property "Reference" "R17"
-			(at -7.62 -41.9101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at -7.62 -39.3701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at -11.938 -40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
-			(at -10.16 -40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -10.16 -40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17673"
-			(at -10.16 -40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "0805"
-			(at -10.16 -40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0805W8J0472T5E"
-			(at -10.16 -40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "303-0805W8J0472T5E"
-			(at -10.16 -40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6eaeefd-748a-46d9-ad6c-588a18a5a937")
-		)
-		(pin "2"
-			(uuid "d991b5f8-f20a-4455-9a1c-7206cb6b4d52")
-		)
-		(instances
-			(project "bestboard-v2"
-				(path "/8c11e168-0da2-4000-91ca-89865f7afe4e"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -31999,73 +31705,6 @@
 			(project "bestboard-v2"
 				(path "/8c11e168-0da2-4000-91ca-89865f7afe4e"
 					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_DIP_x01")
-		(at -19.05 -36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1a76064-e899-4688-a581-f3a212c0ce8f")
-		(property "Reference" "SW1"
-			(at -12.7 -39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Practice"
-			(at -19.05 -41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at -19.05 -36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -19.05 -36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -19.05 -36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "221d2796-1b3a-48d8-b595-d0c7bcf209a9")
-		)
-		(pin "2"
-			(uuid "65a26315-166a-451c-8504-4083ef4c4c0d")
-		)
-		(instances
-			(project "bestboard-v2"
-				(path "/8c11e168-0da2-4000-91ca-89865f7afe4e"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
