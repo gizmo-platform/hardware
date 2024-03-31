@@ -4,4 +4,5 @@
   (lib (name "ASMPR45-1X2-RK")(type "KiCad")(uri "${KIPRJMOD}/ASMPR45-1X2-RK.kicad_sym")(options "")(descr ""))
   (lib (name "Push-Switch")(type "KiCad")(uri "${KIPRJMOD}/push-switch/PTS526_SM15_SMTR2_LFS.kicad_sym")(options "")(descr ""))
   (lib (name "RJ45-Jack")(type "KiCad")(uri "${KIPRJMOD}/rj45-jack/949.kicad_sym")(options "")(descr ""))
+  (lib (name "H1102NLT")(type "KiCad")(uri "${KIPRJMOD}/H1102NLT/2024-03-27_03-01-36.kicad_sym")(options "")(descr ""))
 )
