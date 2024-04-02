@@ -8501,12 +8501,6 @@
 		(uuid "ab5736f9-3b21-474c-b7d6-0334c545456e")
 	)
 	(junction
-		(at 191.77 -49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af8a5b01-40fa-458e-9b86-8383b4785c7e")
-	)
-	(junction
 		(at 27.94 17.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8535,12 +8529,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c398ea49-93d8-414f-ae2e-ef75d7ab4971")
-	)
-	(junction
-		(at 199.39 -49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8cf7d18-d414-4df5-9859-01f3480476ab")
 	)
 	(junction
 		(at 171.45 -67.31)
@@ -8736,16 +8724,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 121.92) (xy 101.6 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "047a396c-ad8b-40a9-aef2-10954e09391c")
-	)
-	(wire
-		(pts
 			(xy 229.87 26.67) (xy 269.24 26.67)
 		)
 		(stroke
@@ -8776,13 +8754,23 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 105.41) (xy 100.33 105.41)
+			(xy 93.98 109.22) (xy 100.33 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0938af89-875e-4f0c-a2d1-d2e28ac2c0a0")
+	)
+	(wire
+		(pts
+			(xy 107.95 116.84) (xy 93.98 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a164b6b-a799-42e8-86bf-dd23db8789ea")
 	)
 	(wire
 		(pts
@@ -8926,16 +8914,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 121.92) (xy 101.6 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1856ada6-71ec-4375-a8fb-8e9ca1384160")
-	)
-	(wire
-		(pts
 			(xy 209.55 60.96) (xy 215.9 60.96)
 		)
 		(stroke
@@ -8953,6 +8931,16 @@
 			(type default)
 		)
 		(uuid "18fb28a6-9521-4899-8e93-6c7305d31390")
+	)
+	(wire
+		(pts
+			(xy 110.49 113.03) (xy 110.49 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1961633f-2998-49e9-9a75-1d857772b0a3")
 	)
 	(wire
 		(pts
@@ -8996,7 +8984,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 115.57) (xy 90.17 115.57)
+			(xy 102.87 119.38) (xy 93.98 119.38)
 		)
 		(stroke
 			(width 0)
@@ -9076,16 +9064,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 113.03) (xy 105.41 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25ba40a8-b802-4d92-8951-ed06c5333a08")
-	)
-	(wire
-		(pts
 			(xy 67.31 33.02) (xy 68.58 33.02)
 		)
 		(stroke
@@ -9103,16 +9081,6 @@
 			(type default)
 		)
 		(uuid "266f1df3-22d7-4adb-8e18-852b4a0be3f9")
-	)
-	(wire
-		(pts
-			(xy 90.17 113.03) (xy 105.41 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2783f6d0-d95a-4342-bf5a-326ab5d0839a")
 	)
 	(wire
 		(pts
@@ -9166,7 +9134,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 110.49) (xy 102.87 105.41)
+			(xy 102.87 114.3) (xy 102.87 105.41)
 		)
 		(stroke
 			(width 0)
@@ -9656,16 +9624,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 -49.53) (xy 199.39 -49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "588b9882-03e3-4ff4-b2ef-1bc56f8bbaf5")
-	)
-	(wire
-		(pts
 			(xy 90.17 -38.1) (xy 90.17 -34.29)
 		)
 		(stroke
@@ -9723,6 +9681,16 @@
 			(type default)
 		)
 		(uuid "59dca593-32c3-48e1-ac67-a2eba55b2a69")
+	)
+	(wire
+		(pts
+			(xy 107.95 110.49) (xy 107.95 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae791be-72b6-4dbe-b797-92f9448a7610")
 	)
 	(wire
 		(pts
@@ -9886,6 +9854,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 168.91) (xy 105.41 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b4a092-7ae2-4f20-97be-631cf0359e62")
+	)
+	(wire
+		(pts
 			(xy 184.15 -76.2) (xy 184.15 -74.93)
 		)
 		(stroke
@@ -9896,7 +9874,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 120.65) (xy 102.87 115.57)
+			(xy 102.87 120.65) (xy 102.87 119.38)
 		)
 		(stroke
 			(width 0)
@@ -9936,7 +9914,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 110.49) (xy 102.87 110.49)
+			(xy 93.98 114.3) (xy 102.87 114.3)
 		)
 		(stroke
 			(width 0)
@@ -10033,6 +10011,16 @@
 			(type default)
 		)
 		(uuid "73680a27-d442-4509-be1e-3cd2ac28a886")
+	)
+	(wire
+		(pts
+			(xy 110.49 127) (xy 107.95 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7408c47d-bb9e-450e-b3a0-bb166b1ff762")
 	)
 	(wire
 		(pts
@@ -10246,7 +10234,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 118.11) (xy 90.17 118.11)
+			(xy 93.98 121.92) (xy 147.32 121.92)
 		)
 		(stroke
 			(width 0)
@@ -10353,16 +10341,6 @@
 			(type default)
 		)
 		(uuid "93a5b3b2-2749-41fd-9a5f-5e14350c6c3e")
-	)
-	(wire
-		(pts
-			(xy 105.41 114.3) (xy 110.49 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93e1d7d1-ad68-4f94-8a45-c38a876017db")
 	)
 	(wire
 		(pts
@@ -10486,7 +10464,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 104.14) (xy 101.6 107.95)
+			(xy 101.6 104.14) (xy 101.6 111.76)
 		)
 		(stroke
 			(width 0)
@@ -10856,7 +10834,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 107.95) (xy 101.6 107.95)
+			(xy 93.98 111.76) (xy 101.6 111.76)
 		)
 		(stroke
 			(width 0)
@@ -11096,7 +11074,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 110.49) (xy 110.49 110.49)
+			(xy 107.95 110.49) (xy 110.49 110.49)
 		)
 		(stroke
 			(width 0)
@@ -11176,16 +11154,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 114.3) (xy 110.49 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da231379-b305-4cb5-9b39-255ad9a662d3")
-	)
-	(wire
-		(pts
 			(xy 106.68 36.83) (xy 105.41 36.83)
 		)
 		(stroke
@@ -11256,7 +11224,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 105.41) (xy 100.33 102.87)
+			(xy 100.33 109.22) (xy 100.33 102.87)
 		)
 		(stroke
 			(width 0)
@@ -11283,16 +11251,6 @@
 			(type default)
 		)
 		(uuid "e9696cbb-c9c1-4bfa-9bfb-9fb77f354777")
-	)
-	(wire
-		(pts
-			(xy 105.41 114.3) (xy 105.41 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9723263-1c50-48fd-a221-bcecacc8badf")
 	)
 	(wire
 		(pts
@@ -11433,6 +11391,16 @@
 			(type default)
 		)
 		(uuid "f2e49be8-d770-42c5-a413-c9d452b686b0")
+	)
+	(wire
+		(pts
+			(xy 107.95 127) (xy 107.95 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f54a6f3c-8087-44fa-a894-67a5ffe85962")
 	)
 	(wire
 		(pts
@@ -11587,27 +11555,137 @@
 		)
 		(uuid "df33fd64-b67c-4d64-bf11-80ac68db7cba")
 	)
-	(global_label "VBAT_GPIO_SCALED"
-		(shape bidirectional)
-		(at 110.49 87.63 180)
+	(label "TX3N"
+		(at 254 -62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "0048fdab-45b2-4b06-979b-e8f2fa5c3056")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.553 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "100f07e5-feb8-493d-906f-b64c667a46e8")
+	)
+	(label "TX3P"
+		(at 254 -67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
+		(uuid "1103147f-1048-4b58-baf6-a6fe9efc5122")
+	)
+	(label "RX2P"
+		(at 166.37 -54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "17b86afe-0a79-4ae5-b0b7-ba8aaacc48fd")
+	)
+	(label "RX3N"
+		(at 254 -49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2031ee36-6989-4633-a16d-1fb339038258")
+	)
+	(label "RX2N"
+		(at 166.37 -38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "42ac1ced-c377-4805-bc30-0a0717670533")
+	)
+	(label "TX1P"
+		(at 133.35 -66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7194e9fa-c45e-4994-bde8-174194a162a7")
+	)
+	(label "TX2P"
+		(at 165.1 -59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7cc1e2e8-d254-45d6-bf3f-52cbaacc1873")
+	)
+	(label "RX1P"
+		(at 133.35 -58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a7607444-87fc-4e9a-a5ad-9b877a0c918c")
+	)
+	(label "TX2N"
+		(at 162.56 -67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a7ce8f5d-bbde-4c53-b049-0ae83342a04f")
+	)
+	(label "TX1N"
+		(at 133.35 -68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bab500b7-536f-491e-8a48-00afee2340c9")
+	)
+	(label "RX1N"
+		(at 133.35 -60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d8e6434a-fa07-4a49-bb0f-6166cc5409f6")
+	)
+	(label "RX3P"
+		(at 254 -58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e728c6ae-a441-4c94-9ca0-810d4a82232e")
 	)
 	(global_label "S_PICO_GP_8"
 		(shape bidirectional)
@@ -12073,6 +12151,28 @@
 	)
 	(global_label "VBAT_SCALED"
 		(shape bidirectional)
+		(at 110.49 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "234503b0-ab3d-42f1-9c81-3708b71be655")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.9959 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT_SCALED"
+		(shape bidirectional)
 		(at 146.05 80.01 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12225,31 +12325,9 @@
 			)
 		)
 	)
-	(global_label "VBAT_SCALED"
-		(shape bidirectional)
-		(at 110.49 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2c1bd778-c1a5-4900-8284-11fdb991a273")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.9959 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBAT"
 		(shape passive)
-		(at 90.17 102.87 0)
+		(at 93.98 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12259,7 +12337,7 @@
 		)
 		(uuid "2efb94b9-eecf-4dbf-94b1-74ef32065f3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.4587 102.87 0)
+			(at 100.2687 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13083,6 +13161,50 @@
 			)
 		)
 	)
+	(global_label "VBAT_SERVO_SCALED"
+		(shape bidirectional)
+		(at 110.49 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78c2a14b-ee24-4083-a7fa-590190d1947f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.9807 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT_GPIO_SCALED"
+		(shape bidirectional)
+		(at 110.49 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b55ce28-f3d8-48dc-8678-c08df0b70e5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.553 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "WIZ_INTn"
 		(shape output)
 		(at 97.79 -58.42 180)
@@ -13096,6 +13218,28 @@
 		(uuid "7e9fb3e9-5747-425f-9b9d-b6461eb798e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 86.5196 -58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT_PICO_SCALED"
+		(shape bidirectional)
+		(at 110.49 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f27116c-1e37-410f-a7cd-74581245474b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.553 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13611,28 +13755,6 @@
 			)
 		)
 	)
-	(global_label "VBAT_SERVO_SCALED"
-		(shape bidirectional)
-		(at 110.49 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a07025a1-69d2-4ffb-9a42-556c11750de7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.9807 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBAT_PICO"
 		(shape passive)
 		(at 31.75 91.44 0)
@@ -13673,28 +13795,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBAT_PICO_SCALED"
-		(shape bidirectional)
-		(at 110.49 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a72e2f24-8b01-4f98-bda0-9ce8a5ae2329")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.553 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -14667,7 +14767,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.0M"
+		(property "Value" "390k"
 			(at 34.29 104.1399 0)
 			(effects
 				(font
@@ -14676,7 +14776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 29.972 102.87 90)
 			(effects
 				(font
@@ -14685,7 +14785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF3903T5E_C23150.html"
 			(at 31.75 102.87 0)
 			(effects
 				(font
@@ -14921,7 +15021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 20.32 65.278 90)
 			(effects
 				(font
@@ -14930,7 +15030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0201WMF1001TEE_C270365.html"
 			(at 20.32 63.5 0)
 			(effects
 				(font
@@ -15024,7 +15124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 20.32 56.388 90)
 			(effects
 				(font
@@ -15033,7 +15133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0201WMF1001TEE_C270365.html"
 			(at 20.32 54.61 0)
 			(effects
 				(font
@@ -15326,7 +15426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 151.13 -57.912 90)
 			(effects
 				(font
@@ -15335,7 +15435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0201WMF0000TEE_C473473.html"
 			(at 151.13 -59.69 0)
 			(effects
 				(font
@@ -15385,7 +15485,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k"
 			(at 20.32 39.37 90)
 			(effects
 				(font
@@ -15393,7 +15493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 20.32 38.608 90)
 			(effects
 				(font
@@ -15402,7 +15502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRC0201F2001TS_C18164321.html"
 			(at 20.32 36.83 0)
 			(effects
 				(font
@@ -15690,7 +15790,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "49R9 1%"
+		(property "Value" "49.9 1%"
 			(at 173.99 -69.8501 0)
 			(effects
 				(font
@@ -15699,7 +15799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 169.672 -71.12 90)
 			(effects
 				(font
@@ -15708,7 +15808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF499JT5E_C23185.html"
 			(at 171.45 -71.12 0)
 			(effects
 				(font
@@ -15842,7 +15942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_Shanghai-Siproin-Microelectronics-H7651-33PR_C411050.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_MSKSEMI-AMS1117-3-3V_C5120796.html"
 			(at 95.25 30.48 0)
 			(effects
 				(font
@@ -15923,7 +16023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 275.59 -47.752 90)
 			(effects
 				(font
@@ -15932,7 +16032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF499JT5E_C23185.html"
 			(at 275.59 -49.53 0)
 			(effects
 				(font
@@ -16125,7 +16225,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 260.35 -56.642 90)
 			(effects
 				(font
@@ -16134,7 +16234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0603FR-07150RL_C114608.html"
 			(at 260.35 -58.42 0)
 			(effects
 				(font
@@ -16490,7 +16590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 151.13 -50.292 90)
 			(effects
 				(font
@@ -16499,7 +16599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0201WMF0000TEE_C473473.html"
 			(at 151.13 -52.07 0)
 			(effects
 				(font
@@ -16761,7 +16861,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5M"
+		(property "Value" "2.5k"
 			(at 16.51 96.5199 0)
 			(effects
 				(font
@@ -16770,7 +16870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 12.192 95.25 90)
 			(effects
 				(font
@@ -16779,7 +16879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/385/SEI_rncp-3077653.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-AR03BTC2501_C304065.html"
 			(at 13.97 95.25 0)
 			(effects
 				(font
@@ -16959,7 +17059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 20.32 84.328 90)
 			(effects
 				(font
@@ -16968,7 +17068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0201WMF1001TEE_C270365.html"
 			(at 20.32 82.55 0)
 			(effects
 				(font
@@ -17133,7 +17233,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 275.59 -50.292 90)
 			(effects
 				(font
@@ -17142,7 +17242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF499JT5E_C23185.html"
 			(at 275.59 -52.07 0)
 			(effects
 				(font
@@ -17304,7 +17404,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.0M"
+		(property "Value" "390k"
 			(at 16.51 124.4599 0)
 			(effects
 				(font
@@ -17313,7 +17413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 12.192 123.19 90)
 			(effects
 				(font
@@ -17322,7 +17422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF3903T5E_C23150.html"
 			(at 13.97 123.19 0)
 			(effects
 				(font
@@ -17475,7 +17575,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Bypass"
+		(property "Value" "0.1 uF"
 			(at 147.32 68.58 0)
 			(effects
 				(font
@@ -17484,7 +17584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 149.86 67.31 0)
 			(effects
 				(font
@@ -17493,7 +17593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM033R60J104KE19D_C76928.html"
 			(at 149.86 67.31 0)
 			(effects
 				(font
@@ -17579,7 +17679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 38.1 21.082 90)
 			(effects
 				(font
@@ -17588,7 +17688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-07100RL_C77623.html"
 			(at 38.1 22.86 0)
 			(effects
 				(font
@@ -17743,7 +17843,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5M"
+		(property "Value" "1M"
 			(at 57.15 96.5199 0)
 			(effects
 				(font
@@ -17752,7 +17852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 52.832 95.25 90)
 			(effects
 				(font
@@ -17761,7 +17861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/385/SEI_rncp-3077653.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1004T5E_C22935.html"
 			(at 54.61 95.25 0)
 			(effects
 				(font
@@ -18137,7 +18237,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 177.038 -41.91 90)
 			(effects
 				(font
@@ -18146,7 +18246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_VO-SCR0603F82R_C3016237.html"
 			(at 175.26 -41.91 0)
 			(effects
 				(font
@@ -18540,7 +18640,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 93.98 -46.482 90)
 			(effects
 				(font
@@ -18549,7 +18649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1004T5E_C22935.html"
 			(at 93.98 -48.26 0)
 			(effects
 				(font
@@ -18608,7 +18708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XFRMR_H1102NLT_12P7X7P11_PUL"
+		(property "Footprint" "H1102NLT:XFRMR_H1102NLT_12P7X7P11_PUL"
 			(at 199.39 -67.31 0)
 			(effects
 				(font
@@ -18719,7 +18819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 20.32 29.718 90)
 			(effects
 				(font
@@ -18728,7 +18828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0201WMF1001TEE_C270365.html"
 			(at 20.32 27.94 0)
 			(effects
 				(font
@@ -19087,7 +19187,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 267.97 -49.022 90)
 			(effects
 				(font
@@ -19096,7 +19196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF499JT5E_C23185.html"
 			(at 267.97 -50.8 0)
 			(effects
 				(font
@@ -19155,7 +19255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 151.13 -65.532 90)
 			(effects
 				(font
@@ -19164,7 +19264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0201WMF0000TEE_C473473.html"
 			(at 151.13 -67.31 0)
 			(effects
 				(font
@@ -19223,7 +19323,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 151.13 -42.672 90)
 			(effects
 				(font
@@ -19232,7 +19332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0201WMF0000TEE_C473473.html"
 			(at 151.13 -44.45 0)
 			(effects
 				(font
@@ -19291,7 +19391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 243.84 -50.292 90)
 			(effects
 				(font
@@ -19300,7 +19400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0402FR-0775RL_C114757.html"
 			(at 243.84 -52.07 0)
 			(effects
 				(font
@@ -19560,7 +19660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 198.12 -65.7352 0)
 			(effects
 				(font
@@ -19569,7 +19669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0201KRX5R5BB223_C541233.html"
 			(at 194.31 -64.77 0)
 			(effects
 				(font
@@ -19621,7 +19721,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.0M"
+		(property "Value" "390k"
 			(at 57.15 104.1399 0)
 			(effects
 				(font
@@ -19630,7 +19730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 52.832 102.87 90)
 			(effects
 				(font
@@ -19639,7 +19739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF3903T5E_C23150.html"
 			(at 54.61 102.87 0)
 			(effects
 				(font
@@ -19727,7 +19827,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5M"
+		(property "Value" "1M"
 			(at 34.29 96.5199 0)
 			(effects
 				(font
@@ -19736,7 +19836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 29.972 95.25 90)
 			(effects
 				(font
@@ -19745,7 +19845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/385/SEI_rncp-3077653.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1004T5E_C22935.html"
 			(at 31.75 95.25 0)
 			(effects
 				(font
@@ -19907,7 +20007,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 133.35 -20.32 0)
 			(effects
 				(font
@@ -19916,7 +20016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05A475KP5NRNC_C368809.html"
 			(at 133.35 -20.32 0)
 			(effects
 				(font
@@ -20001,7 +20101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.3"
 			(at 87.63 -77.47 0)
 			(effects
 				(font
@@ -20010,7 +20110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_ROQANG-VT1C100M0405_C213487.html"
 			(at 87.63 -77.47 0)
 			(effects
 				(font
@@ -20069,7 +20169,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 78.74 -32.512 90)
 			(effects
 				(font
@@ -20078,7 +20178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0201WMF0000TEE_C473473.html"
 			(at 78.74 -34.29 0)
 			(effects
 				(font
@@ -20238,7 +20338,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 199.898 -69.85 90)
 			(effects
 				(font
@@ -20247,7 +20347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF100JT5E_C22859.html"
 			(at 198.12 -69.85 0)
 			(effects
 				(font
@@ -20308,7 +20408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 248.6152 -44.45 0)
 			(effects
 				(font
@@ -20317,7 +20417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-1206B472K202NT_C41017.html"
 			(at 247.65 -48.26 0)
 			(effects
 				(font
@@ -20440,7 +20540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 175.26 -46.6852 0)
 			(effects
 				(font
@@ -20449,7 +20549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM033R71A103KA01D_C76941.html"
 			(at 171.45 -45.72 0)
 			(effects
 				(font
@@ -20509,7 +20609,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 270.51 101.6 0)
 			(effects
 				(font
@@ -20848,7 +20948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 107.95 -95.5548 0)
 			(effects
 				(font
@@ -20857,7 +20957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM033R60J104KE19D_C76928.html"
 			(at 111.76 -96.52 0)
 			(effects
 				(font
@@ -20915,7 +21015,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 93.0148 -81.28 0)
 			(effects
 				(font
@@ -20924,7 +21024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM033R60J104KE19D_C76928.html"
 			(at 93.98 -77.47 0)
 			(effects
 				(font
@@ -20982,7 +21082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 123.19 -82.2452 0)
 			(effects
 				(font
@@ -20991,7 +21091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM033R60J104KE19D_C76928.html"
 			(at 119.38 -81.28 0)
 			(effects
 				(font
@@ -21108,7 +21208,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5M"
+		(property "Value" "1M"
 			(at 39.37 116.8399 0)
 			(effects
 				(font
@@ -21117,7 +21217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 35.052 115.57 90)
 			(effects
 				(font
@@ -21126,7 +21226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/385/SEI_rncp-3077653.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1004T5E_C22935.html"
 			(at 36.83 115.57 0)
 			(effects
 				(font
@@ -21289,7 +21389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 133.35 -16.51 0)
 			(effects
 				(font
@@ -21298,7 +21398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM033R71A103KA01D_C76941.html"
 			(at 133.35 -16.51 0)
 			(effects
 				(font
@@ -21450,7 +21550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.3"
 			(at 82.55 46.99 0)
 			(effects
 				(font
@@ -21459,7 +21559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_ROQANG-VT1C100M0405_C213487.html"
 			(at 82.55 46.99 0)
 			(effects
 				(font
@@ -21681,7 +21781,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 123.19 -92.4052 0)
 			(effects
 				(font
@@ -21690,7 +21790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM033R60J104KE19D_C76928.html"
 			(at 119.38 -91.44 0)
 			(effects
 				(font
@@ -21860,7 +21960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 267.97 -56.642 90)
 			(effects
 				(font
@@ -21869,7 +21969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF499JT5E_C23185.html"
 			(at 267.97 -58.42 0)
 			(effects
 				(font
@@ -22016,7 +22116,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x08_Female")
-		(at 85.09 110.49 0)
+		(at 88.9 114.3 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22026,7 +22126,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e8688ce-60ad-49b7-9f67-92c0088471cf")
 		(property "Reference" "J3"
-			(at 85.725 97.79 0)
+			(at 89.535 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22034,7 +22134,7 @@
 			)
 		)
 		(property "Value" "System Breakout"
-			(at 85.725 100.33 0)
+			(at 89.535 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22042,7 +22142,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-			(at 85.09 110.49 0)
+			(at 88.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22051,7 +22151,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 110.49 0)
+			(at 88.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22060,7 +22160,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 110.49 0)
+			(at 88.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22128,7 +22228,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 270.51 111.76 0)
 			(effects
 				(font
@@ -22342,7 +22442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 62.23 -31.75 0)
 			(effects
 				(font
@@ -22351,7 +22451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0201JRNPO8BN180_C513686.html"
 			(at 62.23 -31.75 0)
 			(effects
 				(font
@@ -22674,7 +22774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 199.39 -55.5752 0)
 			(effects
 				(font
@@ -22683,7 +22783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0201KRX7R7BB682_C526962.html"
 			(at 195.58 -54.61 0)
 			(effects
 				(font
@@ -22866,7 +22966,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.0M"
+		(property "Value" "390k"
 			(at 39.37 124.4599 0)
 			(effects
 				(font
@@ -22875,7 +22975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 35.052 123.19 90)
 			(effects
 				(font
@@ -22884,7 +22984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF3903T5E_C23150.html"
 			(at 36.83 123.19 0)
 			(effects
 				(font
@@ -23054,7 +23154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Crystals_TAITIEN-Elec-XXHBELNAOF-25MHZ_C5160142.html"
 			(at 62.23 -38.1 0)
 			(effects
 				(font
@@ -23190,7 +23290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 107.95 -90.4748 0)
 			(effects
 				(font
@@ -23199,7 +23299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM033R60J104KE19D_C76928.html"
 			(at 111.76 -91.44 0)
 			(effects
 				(font
@@ -23323,7 +23423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.66 177.038 90)
 			(effects
 				(font
@@ -23332,7 +23432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF4700T5E_C23179.html"
 			(at 73.66 175.26 0)
 			(effects
 				(font
@@ -23492,7 +23592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 132.08 187.198 90)
 			(effects
 				(font
@@ -23501,7 +23601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF4700T5E_C23179.html"
 			(at 132.08 185.42 0)
 			(effects
 				(font
@@ -23643,7 +23743,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7ef7887d-6960-4f95-8363-9b0d1405c7ec")
 		(property "Reference" "TP1"
@@ -23710,7 +23810,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7f5eb939-9cee-4684-b031-037cbee74ca4")
 		(property "Reference" "TP3"
@@ -23862,7 +23962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 132.08 -23.622 90)
 			(effects
 				(font
@@ -23871,7 +23971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Walsin-Tech-Corp-WR02X1242FAL_C2612358.html"
 			(at 132.08 -25.4 0)
 			(effects
 				(font
@@ -24210,7 +24310,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5M"
+		(property "Value" "1M"
 			(at 43.18 137.1599 0)
 			(effects
 				(font
@@ -24219,7 +24319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 38.862 135.89 90)
 			(effects
 				(font
@@ -24228,7 +24328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/385/SEI_rncp-3077653.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1004T5E_C22935.html"
 			(at 40.64 135.89 0)
 			(effects
 				(font
@@ -24667,7 +24767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 62.23 -45.72 0)
 			(effects
 				(font
@@ -24676,7 +24776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0201JRNPO8BN180_C513686.html"
 			(at 62.23 -45.72 0)
 			(effects
 				(font
@@ -24827,7 +24927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 275.59 -55.372 90)
 			(effects
 				(font
@@ -24836,7 +24936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF499JT5E_C23185.html"
 			(at 275.59 -57.15 0)
 			(effects
 				(font
@@ -24894,7 +24994,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 20.32 75.438 90)
 			(effects
 				(font
@@ -24903,7 +25003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0201WMF1001TEE_C270365.html"
 			(at 20.32 73.66 0)
 			(effects
 				(font
@@ -25068,7 +25168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 82.042 -39.37 90)
 			(effects
 				(font
@@ -25077,7 +25177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1004T5E_C22935.html"
 			(at 83.82 -39.37 0)
 			(effects
 				(font
@@ -25367,7 +25467,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 270.51 77.47 0)
 			(effects
 				(font
@@ -25566,7 +25666,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5M"
+		(property "Value" "1M"
 			(at 16.51 116.8399 0)
 			(effects
 				(font
@@ -25575,7 +25675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 12.192 115.57 90)
 			(effects
 				(font
@@ -25584,7 +25684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/385/SEI_rncp-3077653.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1004T5E_C22935.html"
 			(at 13.97 115.57 0)
 			(effects
 				(font
@@ -25904,7 +26004,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 270.51 88.9 0)
 			(effects
 				(font
@@ -26047,7 +26147,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 248.6152 -36.83 0)
 			(effects
 				(font
@@ -26056,7 +26156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-1206B102K202NT_C9196.html"
 			(at 247.65 -40.64 0)
 			(effects
 				(font
@@ -26114,7 +26214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 275.59 -57.912 90)
 			(effects
 				(font
@@ -26123,7 +26223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF499JT5E_C23185.html"
 			(at 275.59 -59.69 0)
 			(effects
 				(font
@@ -26740,7 +26840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_Shanghai-Siproin-Microelectronics-H7651-33PR_C411050.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_MSKSEMI-AMS1117-3-3V_C5120796.html"
 			(at 252.73 125.73 0)
 			(effects
 				(font
@@ -26888,7 +26988,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 243.84 -62.992 90)
 			(effects
 				(font
@@ -26897,7 +26997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0402FR-0775RL_C114757.html"
 			(at 243.84 -64.77 0)
 			(effects
 				(font
@@ -27017,7 +27117,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.0M"
+		(property "Value" "390k"
 			(at 16.51 144.7799 0)
 			(effects
 				(font
@@ -27026,7 +27126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 12.192 143.51 90)
 			(effects
 				(font
@@ -27035,7 +27135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF3903T5E_C23150.html"
 			(at 13.97 143.51 0)
 			(effects
 				(font
@@ -27190,7 +27290,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Bypass"
+		(property "Value" "0.1 uF"
 			(at 11.43 189.23 0)
 			(effects
 				(font
@@ -27199,7 +27299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 13.97 187.96 0)
 			(effects
 				(font
@@ -27208,7 +27308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM033R60J104KE19D_C76928.html"
 			(at 13.97 187.96 0)
 			(effects
 				(font
@@ -27477,7 +27577,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Bypass"
+		(property "Value" "0.1 uF"
 			(at 29.21 189.23 0)
 			(effects
 				(font
@@ -27486,7 +27586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 31.75 187.96 0)
 			(effects
 				(font
@@ -27495,7 +27595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM033R60J104KE19D_C76928.html"
 			(at 31.75 187.96 0)
 			(effects
 				(font
@@ -27581,7 +27681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PTS526SM15SMTR2LFS"
+		(property "Footprint" "push-switch:PTS526SM15SMTR2LFS"
 			(at 218.44 121.59 0)
 			(effects
 				(font
@@ -27789,7 +27889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 123.19 -87.3252 0)
 			(effects
 				(font
@@ -27798,7 +27898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM033R60J104KE19D_C76928.html"
 			(at 119.38 -86.36 0)
 			(effects
 				(font
@@ -27923,7 +28023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 308.61 -65.532 90)
 			(effects
 				(font
@@ -27932,7 +28032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-07330RL_C274872.html"
 			(at 308.61 -67.31 0)
 			(effects
 				(font
@@ -28033,7 +28133,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 120.65 90)
+		(at 93.98 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28042,7 +28142,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6062847-efbf-4417-9715-e7c55234c5ee")
 		(property "Reference" "#PWR0156"
-			(at 96.52 120.65 0)
+			(at 100.33 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28051,7 +28151,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 120.6499 90)
+			(at 97.79 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28060,7 +28160,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 120.65 0)
+			(at 93.98 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28069,7 +28169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 120.65 0)
+			(at 93.98 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28078,7 +28178,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 120.65 0)
+			(at 93.98 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28373,7 +28473,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Bypass"
+		(property "Value" "0.1 uF"
 			(at 215.9 68.58 0)
 			(effects
 				(font
@@ -28382,7 +28482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 218.44 67.31 0)
 			(effects
 				(font
@@ -28391,7 +28491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM033R60J104KE19D_C76928.html"
 			(at 218.44 67.31 0)
 			(effects
 				(font
@@ -28545,7 +28645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PTS526SM15SMTR2LFS"
+		(property "Footprint" "push-switch:PTS526SM15SMTR2LFS"
 			(at 185.42 121.59 0)
 			(effects
 				(font
@@ -28827,7 +28927,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5M"
+		(property "Value" "1M"
 			(at 16.51 137.1599 0)
 			(effects
 				(font
@@ -28836,7 +28936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 12.192 135.89 90)
 			(effects
 				(font
@@ -28845,7 +28945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/385/SEI_rncp-3077653.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1004T5E_C22935.html"
 			(at 13.97 135.89 0)
 			(effects
 				(font
@@ -29261,7 +29361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.3"
 			(at 124.46 -96.52 0)
 			(effects
 				(font
@@ -29270,7 +29370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_ROQANG-VT1C100M0405_C213487.html"
 			(at 124.46 -96.52 0)
 			(effects
 				(font
@@ -29439,7 +29539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Zener-Diodes_High-span-style-background-color-ff0-Diode-span-BZT52C15W_C691868.html"
 			(at 46.99 19.05 0)
 			(effects
 				(font
@@ -29491,7 +29591,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.0M"
+		(property "Value" "1k"
 			(at 16.51 104.1399 0)
 			(effects
 				(font
@@ -29500,7 +29600,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 12.192 102.87 90)
 			(effects
 				(font
@@ -29509,7 +29609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0201WMF1001TEE_C270365.html"
 			(at 13.97 102.87 0)
 			(effects
 				(font
@@ -29807,7 +29907,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 199.39 -50.4952 0)
 			(effects
 				(font
@@ -29816,7 +29916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0201KRX7R7BB682_C526962.html"
 			(at 195.58 -49.53 0)
 			(effects
 				(font
@@ -30654,7 +30754,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.0M"
+		(property "Value" "390k"
 			(at 43.18 144.7799 0)
 			(effects
 				(font
@@ -30663,7 +30763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 38.862 143.51 90)
 			(effects
 				(font
@@ -30672,7 +30772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF3903T5E_C23150.html"
 			(at 40.64 143.51 0)
 			(effects
 				(font
@@ -30766,7 +30866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 260.35 -49.022 90)
 			(effects
 				(font
@@ -30775,7 +30875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0603FR-07150RL_C114608.html"
 			(at 260.35 -50.8 0)
 			(effects
 				(font
@@ -30827,7 +30927,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "49R9 1%"
+		(property "Value" "49.9 1%"
 			(at 186.69 -69.8501 0)
 			(effects
 				(font
@@ -30836,7 +30936,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 185.928 -71.12 90)
 			(effects
 				(font
@@ -30845,7 +30945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF499JT5E_C23185.html"
 			(at 184.15 -71.12 0)
 			(effects
 				(font
@@ -31178,7 +31278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 308.61 -50.292 90)
 			(effects
 				(font
@@ -31187,7 +31287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-07330RL_C274872.html"
 			(at 308.61 -52.07 0)
 			(effects
 				(font
@@ -31578,7 +31678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 107.95 -85.3948 0)
 			(effects
 				(font
@@ -31587,7 +31687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM033R60J104KE19D_C76928.html"
 			(at 111.76 -86.36 0)
 			(effects
 				(font
@@ -31728,7 +31828,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Bypass"
+		(property "Value" "0.1 uF"
 			(at 46.99 189.23 0)
 			(effects
 				(font
@@ -31737,7 +31837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 49.53 187.96 0)
 			(effects
 				(font
@@ -31746,7 +31846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM033R60J104KE19D_C76928.html"
 			(at 49.53 187.96 0)
 			(effects
 				(font
@@ -32261,7 +32361,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k"
 			(at 20.32 48.26 90)
 			(effects
 				(font
@@ -32269,7 +32369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 20.32 47.498 90)
 			(effects
 				(font
@@ -32278,7 +32378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRC0201F2001TS_C18164321.html"
 			(at 20.32 45.72 0)
 			(effects
 				(font
@@ -32375,7 +32475,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 177.038 -49.53 90)
 			(effects
 				(font
@@ -32384,7 +32484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_VO-SCR0603F82R_C3016237.html"
 			(at 175.26 -49.53 0)
 			(effects
 				(font
