@@ -8615,6 +8615,301 @@
 				)
 			)
 		)
+		(symbol "Transistor_FET:SUD08P06-155L"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 4.953 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SUD08P06-155L"
+				(at 4.953 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+				(at 4.953 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/62843/sud08p06-155l-ge3.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-8.4A Id, -60V Vds, TrenchFET P-Channel Power MOSFET, 155mOhm Ron, 19nC Qg, -55 to 150 °C, TO-252-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "TrenchFET P-Channel Power MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?252*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SUD08P06-155L_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SUD08P06-155L_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -10254,16 +10549,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 127) (xy 196.85 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51349c86-1c7e-4a8f-9ed5-7aa35b119b1b")
-	)
-	(wire
-		(pts
 			(xy 240.03 -49.53) (xy 256.54 -49.53)
 		)
 		(stroke
@@ -10624,7 +10909,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 67.31) (xy 176.53 120.65)
+			(xy 176.53 67.31) (xy 176.53 129.54)
 		)
 		(stroke
 			(width 0)
@@ -10651,6 +10936,16 @@
 			(type default)
 		)
 		(uuid "6e96b6d1-d1c6-4c36-abbe-00d4453c6187")
+	)
+	(wire
+		(pts
+			(xy 175.26 127) (xy 184.15 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9a0ca7-9456-4def-a4ef-9bdffb4797a4")
 	)
 	(wire
 		(pts
@@ -10761,16 +11056,6 @@
 			(type default)
 		)
 		(uuid "7408c47d-bb9e-450e-b3a0-bb166b1ff762")
-	)
-	(wire
-		(pts
-			(xy 205.74 129.54) (xy 196.85 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "755e9da9-5997-4701-a3b1-d6f9e7f4c8fa")
 	)
 	(wire
 		(pts
@@ -10974,6 +11259,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 60.96) (xy 176.53 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "869e19e1-bb29-4e1d-9c2a-53ca2ffbb68c")
+	)
+	(wire
+		(pts
 			(xy 279.4 111.76) (xy 279.4 101.6)
 		)
 		(stroke
@@ -11081,16 +11376,6 @@
 			(type default)
 		)
 		(uuid "91245782-ab6a-4fd9-a897-d0c04ccba8ba")
-	)
-	(wire
-		(pts
-			(xy 204.47 121.92) (xy 204.47 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91856a1a-f1b3-41c1-bf3a-99f339631c6d")
 	)
 	(wire
 		(pts
@@ -11241,16 +11526,6 @@
 			(type default)
 		)
 		(uuid "9e40e614-3b45-4bfb-a825-0dd9cec2ee4d")
-	)
-	(wire
-		(pts
-			(xy 176.53 120.65) (xy 205.74 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e590501-ec54-44ec-8762-3baedee69a54")
 	)
 	(wire
 		(pts
@@ -11584,16 +11859,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 120.65) (xy 205.74 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b32c9c5e-8259-42a7-af45-b009c8bcf26d")
-	)
-	(wire
-		(pts
 			(xy 229.87 35.56) (xy 269.24 35.56)
 		)
 		(stroke
@@ -11601,16 +11866,6 @@
 			(type default)
 		)
 		(uuid "b36dcfc6-0e45-4b6e-8695-d3fe38f646c0")
-	)
-	(wire
-		(pts
-			(xy 165.1 62.23) (xy 166.37 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3d88ee1-b8fd-482f-bdaa-61f4eb0423fb")
 	)
 	(wire
 		(pts
@@ -12014,16 +12269,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 121.92) (xy 204.47 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd496974-7a05-49c6-a8c8-6abccad1afb1")
-	)
-	(wire
-		(pts
 			(xy 228.6 15.24) (xy 269.24 15.24)
 		)
 		(stroke
@@ -12274,6 +12519,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 129.54) (xy 184.15 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f41bf02a-1298-43e1-a3dd-6f05c5144b6b")
+	)
+	(wire
+		(pts
 			(xy 107.95 127) (xy 107.95 168.91)
 		)
 		(stroke
@@ -12354,7 +12609,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 64.77) (xy 175.26 121.92)
+			(xy 175.26 64.77) (xy 175.26 127)
 		)
 		(stroke
 			(width 0)
@@ -12697,6 +12952,28 @@
 			)
 		)
 	)
+	(global_label "S_PICO_GP_4"
+		(shape bidirectional)
+		(at 196.85 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "059ff76e-9429-4d47-bca4-bd9a161b2f18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.2836 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "S_PICO_GP_13"
 		(shape bidirectional)
 		(at 274.32 154.94 90)
@@ -12759,28 +13036,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S_PICO_GP_16"
-		(shape bidirectional)
-		(at 265.43 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "08e92f16-4c60-43ee-9270-5a5f44737e59")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.7869 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -12851,24 +13106,24 @@
 			)
 		)
 	)
-	(global_label "3.3v_SYS_REF"
-		(shape passive)
-		(at 165.1 62.23 180)
+	(global_label "S_PICO_GP_5"
+		(shape bidirectional)
+		(at 196.85 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "0e310fc2-71ed-42e6-9635-38b93e858099")
+		(uuid "0db8182d-32da-41fb-8884-8a8e0774fe35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.2843 62.23 0)
+			(at 213.2836 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -13269,6 +13524,50 @@
 			)
 		)
 	)
+	(global_label "LINK_LED"
+		(shape input)
+		(at 146.05 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31bf8039-0054-4065-b511-4e9c7cd685c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.6833 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S_PICO_GP_15"
+		(shape bidirectional)
+		(at 265.43 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33830b74-bd77-4996-b917-96cd5403ccea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.7869 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "5V_SERVO_POWER"
 		(shape passive)
 		(at 138.43 22.86 0)
@@ -13612,6 +13911,28 @@
 		(uuid "51aa5b23-53d1-498b-baa2-66c63f3c2687")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 38.0387 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LINK_LED"
+		(shape input)
+		(at 134.62 -35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51ac0d27-98ad-46b4-8551-5b6d6f0b9b1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.2533 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13995,28 +14316,6 @@
 			)
 		)
 	)
-	(global_label "rst_wizzy"
-		(shape output)
-		(at 146.05 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7499413f-0f0a-46c1-b180-87bc58980c4c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.5019 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "S_PICO_GP_13"
 		(shape bidirectional)
 		(at 180.34 105.41 180)
@@ -14237,28 +14536,6 @@
 			)
 		)
 	)
-	(global_label "S_PICO_GP_17"
-		(shape bidirectional)
-		(at 265.43 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "87e6f7e3-30c7-485f-89c3-7fee6913b8a2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.7869 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "S_PICO_GP_5"
 		(shape bidirectional)
 		(at 180.34 80.01 180)
@@ -14409,28 +14686,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S_PICO_GP_5"
-		(shape bidirectional)
-		(at 184.15 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "91585fb2-9b5c-4946-8eca-c93732eea732")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.7164 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -14743,6 +14998,28 @@
 			)
 		)
 	)
+	(global_label "3.3v_SYS_REF"
+		(shape passive)
+		(at 176.53 60.96 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "adc20393-830d-4d31-86cc-0ebb73eafc16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.53 46.1443 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBAT_GPIO"
 		(shape passive)
 		(at 246.38 132.08 180)
@@ -14778,6 +15055,28 @@
 		(uuid "b13d5a50-5f84-4930-8770-d75a58b0124a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 82.9137 -48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S_PICO_GP_16"
+		(shape bidirectional)
+		(at 265.43 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b173337a-1dd6-464b-804f-84abe7cb6e9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.7869 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14937,28 +15236,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S_PICO_GP_4"
-		(shape bidirectional)
-		(at 184.15 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c889132e-db4c-4977-aff7-722db92b34aa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.7164 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -15183,6 +15460,50 @@
 			)
 		)
 	)
+	(global_label "S_PICO_GP_17"
+		(shape bidirectional)
+		(at 265.43 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd183020-af25-4689-8a04-d00145b734e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.7869 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "rst_wizzy"
+		(shape output)
+		(at 146.05 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df03a1ee-58d6-4716-93bc-1fe82397f987")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.5019 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "S_PICO_GP_4"
 		(shape bidirectional)
 		(at 180.34 77.47 180)
@@ -15218,28 +15539,6 @@
 		(uuid "e1b89840-610f-4b48-8cb1-a414b4ec3d0e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 83.4958 -66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S_PICO_GP_14"
-		(shape bidirectional)
-		(at 265.43 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e202edb4-9908-4b9a-9292-55466e2ca902")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.7869 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15311,6 +15610,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S_PICO_GP_14"
+		(shape bidirectional)
+		(at 265.43 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eae0af33-33c9-420d-b2dc-64ddafcedbdc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.7869 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -15443,28 +15764,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S_PICO_GP_15"
-		(shape bidirectional)
-		(at 265.43 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f9a22586-1fde-40c9-a093-afcc4dd72aea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.7869 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -16060,6 +16359,72 @@
 			(project "bestboard-v2"
 				(path "/8c11e168-0da2-4000-91ca-89865f7afe4e"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "069c1e06-403f-4554-bf50-3505580dedef")
+		(property "Reference" "#PWR010"
+			(at 166.37 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "530a85f6-f310-446e-b1d2-3280a887746f")
+		)
+		(instances
+			(project "bestboard-v2"
+				(path "/8c11e168-0da2-4000-91ca-89865f7afe4e"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -18266,7 +18631,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:DMG2301L")
+		(lib_id "Transistor_FET:SUD08P06-155L")
 		(at 41.91 17.78 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18283,7 +18648,7 @@
 				)
 			)
 		)
-		(property "Value" "DMG2301L"
+		(property "Value" "C2995338"
 			(at 41.91 11.43 90)
 			(effects
 				(font
@@ -18291,8 +18656,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 43.815 12.7 0)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 43.815 12.827 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18302,8 +18667,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG2301L.pdf"
-			(at 41.91 17.78 0)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/MOSFETs_ALLPOWER-ShenZhen-Quan-Li-Semiconductor-AP9565K_C2995338.html"
+			(at 45.72 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18312,7 +18677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ReversePolarityProtect"
+		(property "Description" "-8.4A Id, -60V Vds, TrenchFET P-Channel Power MOSFET, 155mOhm Ron, 19nC Qg, -55 to 150 °C, TO-252-2"
 			(at 41.91 17.78 0)
 			(effects
 				(font
@@ -25931,72 +26296,6 @@
 			(project "bestboard-v2"
 				(path "/8c11e168-0da2-4000-91ca-89865f7afe4e"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 173.99 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8e3dbe79-2b51-4319-a14e-d1d1fd66d311")
-		(property "Reference" "#PWR010"
-			(at 173.99 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.07 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8e92286-b644-4774-a54b-ceb5f4001a5d")
-		)
-		(instances
-			(project "bestboard-v2"
-				(path "/8c11e168-0da2-4000-91ca-89865f7afe4e"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
