@@ -5556,6 +5556,7 @@
 						)
 					)
 					(alternate "" input line)
+					(alternate "" input line)
 				)
 				(pin power_in line
 					(at -7.62 0 0)
@@ -5574,6 +5575,7 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "" input line)
 				)
 			)
@@ -7863,6 +7865,7 @@
 						)
 					)
 					(alternate "" input line)
+					(alternate "" input line)
 				)
 				(pin power_in line
 					(at -7.62 0 0)
@@ -7881,6 +7884,7 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "" input line)
 				)
 			)
@@ -11609,7 +11613,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 44.45) (xy 88.9 36.83)
+			(xy 88.9 44.45) (xy 88.9 31.75)
 		)
 		(stroke
 			(width 0)
@@ -11879,7 +11883,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 36.83) (xy 90.17 36.83)
+			(xy 88.9 31.75) (xy 90.17 31.75)
 		)
 		(stroke
 			(width 0)
@@ -12226,16 +12230,6 @@
 			(type default)
 		)
 		(uuid "d7b1818d-935a-491a-8494-e79c53fa9024")
-	)
-	(wire
-		(pts
-			(xy 106.68 36.83) (xy 105.41 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da9f6f11-3b15-4662-8c0d-35b542be93d7")
 	)
 	(wire
 		(pts
@@ -13053,28 +13047,6 @@
 		(uuid "097eb646-8415-4bc5-b52a-56ba47eba5b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 108.4934 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3.3V GPIO"
-		(shape passive)
-		(at 264.16 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0c7687c7-63f7-4fcb-b522-66acd6a92068")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.5892 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14228,6 +14200,28 @@
 			)
 		)
 	)
+	(global_label "VBAT_GPIO"
+		(shape passive)
+		(at 264.16 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b7f1880-b721-4c9c-b2a8-e89aeee18ec9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.8916 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3.3VA"
 		(shape passive)
 		(at 115.57 -97.79 90)
@@ -14802,7 +14796,7 @@
 	)
 	(global_label "3.3VD"
 		(shape passive)
-		(at 106.68 36.83 0)
+		(at 105.41 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14812,7 +14806,7 @@
 		)
 		(uuid "96705144-cc8e-43e7-a5e7-2f5b6e84d285")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.9363 36.83 0)
+			(at 112.6663 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14954,6 +14948,28 @@
 			)
 		)
 	)
+	(global_label "3.3V GPIO"
+		(shape passive)
+		(at 246.38 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a42fc1cd-9792-4ada-b8c9-f74a1dbd42b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.9508 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "S_PICO_GP_22"
 		(shape bidirectional)
 		(at 215.9 92.71 0)
@@ -15016,28 +15032,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBAT_GPIO"
-		(shape passive)
-		(at 246.38 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "afa33fc7-9d99-4ccd-83a1-242a98b07240")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.6484 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -17176,7 +17170,7 @@
 	(symbol
 		(lib_name "LD1117S33TR_SOT223_1")
 		(lib_id "Regulator_Linear:LD1117S33TR_SOT223")
-		(at 97.79 36.83 180)
+		(at 97.79 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17184,7 +17178,7 @@
 		(dnp no)
 		(uuid "1578e0b5-0d40-4f27-bf80-f454487b7f11")
 		(property "Reference" "U7"
-			(at 100.076 30.48 0)
+			(at 94.742 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17192,7 +17186,7 @@
 			)
 		)
 		(property "Value" "Wiznet 3.3v"
-			(at 97.79 40.386 0)
+			(at 97.79 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17200,7 +17194,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 97.79 41.91 0)
+			(at 97.79 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17209,7 +17203,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_MSKSEMI-AMS1117-3-3V_C5120796.html"
-			(at 95.25 30.48 0)
+			(at 100.33 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17218,7 +17212,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 36.83 0)
+			(at 97.79 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17227,7 +17221,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 95.25 30.48 0)
+			(at 100.33 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17236,7 +17230,7 @@
 			)
 		)
 		(property "MOUSER" ""
-			(at 95.25 30.48 0)
+			(at 100.33 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17249,11 +17243,9 @@
 		)
 		(pin "2"
 			(uuid "cf7f8f9f-d0ec-4a0e-9d57-c0772a312851")
-			(alternate "VIn")
 		)
 		(pin "3"
 			(uuid "ba35c070-55a9-463d-8525-1586c878fb6c")
-			(alternate "VOut")
 		)
 		(instances
 			(project "bestboard-v2"
@@ -22262,7 +22254,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 29.21 180)
+		(at 97.79 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22270,7 +22262,7 @@
 		(dnp no)
 		(uuid "5c53410f-2960-4245-8816-8f90f59d28f4")
 		(property "Reference" "#PWR045"
-			(at 97.79 22.86 0)
+			(at 104.14 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22279,7 +22271,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 25.4 0)
+			(at 101.6 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22288,7 +22280,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 29.21 0)
+			(at 97.79 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22297,7 +22289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 29.21 0)
+			(at 97.79 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22306,7 +22298,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 29.21 0)
+			(at 97.79 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28130,11 +28122,9 @@
 		)
 		(pin "2"
 			(uuid "1b1d0224-422d-4a27-bb11-502ec28549cc")
-			(alternate "VIn")
 		)
 		(pin "3"
 			(uuid "804dc800-6a25-4291-b287-7325323b7eeb")
-			(alternate "VOut")
 		)
 		(instances
 			(project "bestboard-v2"
