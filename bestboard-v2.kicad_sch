@@ -5556,7 +5556,6 @@
 						)
 					)
 					(alternate "" input line)
-					(alternate "" input line)
 				)
 				(pin power_in line
 					(at -7.62 0 0)
@@ -5575,7 +5574,6 @@
 							)
 						)
 					)
-					(alternate "" input line)
 					(alternate "" input line)
 				)
 			)
@@ -7865,7 +7863,6 @@
 						)
 					)
 					(alternate "" input line)
-					(alternate "" input line)
 				)
 				(pin power_in line
 					(at -7.62 0 0)
@@ -7884,7 +7881,6 @@
 							)
 						)
 					)
-					(alternate "" input line)
 					(alternate "" input line)
 				)
 			)
@@ -13338,6 +13334,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WIZ_INTn"
+		(shape input)
+		(at 146.05 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "245cd0f2-1b90-42a6-b6ad-962a89511474")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.3204 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
