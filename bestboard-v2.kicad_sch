@@ -1644,21 +1644,21 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x08_Female"
+		(symbol "Connector:Conn_01x09_Socket"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 10.16 0)
+				(at 0 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x08_Female"
+			(property "Value" "Conn_01x09_Socket"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -1684,13 +1684,21 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x09, script generated"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -1711,7 +1719,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x08_Female_1_1"
+			(symbol "Conn_01x09_Socket_1_1"
 				(arc
 					(start 0 -9.652)
 					(mid -0.5058 -10.16)
@@ -1856,6 +1864,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.27 10.16) (xy -0.508 10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(arc
 					(start 0 0.508)
 					(mid -0.5058 0)
@@ -1904,8 +1924,20 @@
 						(type none)
 					)
 				)
+				(arc
+					(start 0 10.668)
+					(mid -0.5058 10.16)
+					(end 0 9.652)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at -5.08 10.16 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -1923,7 +1955,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1941,7 +1973,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1959,7 +1991,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -1977,7 +2009,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -1995,7 +2027,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -2013,7 +2045,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -2031,7 +2063,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -2041,6 +2073,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9859,6 +9909,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 105.41) (xy 148.59 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c5c211-6de0-44b7-a053-2be9e4f582a4")
+	)
+	(wire
+		(pts
 			(xy 260.35 43.18) (xy 260.35 50.8)
 		)
 		(stroke
@@ -10336,6 +10396,16 @@
 			(type default)
 		)
 		(uuid "410be09b-b95b-4aed-9b4f-e66a8bb463c3")
+	)
+	(wire
+		(pts
+			(xy 148.59 105.41) (xy 148.59 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ef46d4-268f-4f9a-9a7a-facaa069a6a5")
 	)
 	(wire
 		(pts
@@ -11546,6 +11616,16 @@
 			(type default)
 		)
 		(uuid "9fe9feb6-90dd-47f8-ad55-3c369add49f4")
+	)
+	(wire
+		(pts
+			(xy 148.59 124.46) (xy 93.98 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a036f9c9-5884-49e4-b347-701997d3773b")
 	)
 	(wire
 		(pts
@@ -17180,6 +17260,73 @@
 			(project "bestboard-v2"
 				(path "/8c11e168-0da2-4000-91ca-89865f7afe4e"
 					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15183988-c0ad-46c0-b507-cbd702b5adc0")
+		(property "Reference" "#PWR057"
+			(at 100.33 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5c2c2bb-f1b3-4c76-81d1-39daf15bc628")
+		)
+		(instances
+			(project "bestboard-v2"
+				(path "/8c11e168-0da2-4000-91ca-89865f7afe4e"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -23663,93 +23810,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x08_Female")
-		(at 88.9 114.3 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e8688ce-60ad-49b7-9f67-92c0088471cf")
-		(property "Reference" "J3"
-			(at 89.535 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "System Breakout"
-			(at 89.535 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-			(at 88.9 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "058313c5-2fa3-4ea4-be1f-231c4d919b5d")
-		)
-		(pin "2"
-			(uuid "31f003f3-b674-4f29-a022-4466cec20632")
-		)
-		(pin "3"
-			(uuid "f2ea6e53-b41f-46bb-b582-4fef71c70d6d")
-		)
-		(pin "4"
-			(uuid "789cd465-a79a-4729-a5ac-9592ff71a69b")
-		)
-		(pin "5"
-			(uuid "7759477c-b922-4f88-971e-7fed15c30a37")
-		)
-		(pin "6"
-			(uuid "b0029e32-38ed-46d7-b1f2-029c624de94f")
-		)
-		(pin "7"
-			(uuid "3dc4bec4-b3e9-4ac6-bfe2-3cd6166e8919")
-		)
-		(pin "8"
-			(uuid "81bcb559-9e70-44b4-8c87-2ffe753f574c")
-		)
-		(instances
-			(project "bestboard-v2"
-				(path "/8c11e168-0da2-4000-91ca-89865f7afe4e"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 125.73 -91.44 90)
@@ -29455,73 +29515,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 93.98 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6062847-efbf-4417-9715-e7c55234c5ee")
-		(property "Reference" "#PWR0156"
-			(at 100.33 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 97.79 124.4599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 93.98 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8bb7ebb0-d041-4ae2-9791-39046ae24d97")
-		)
-		(instances
-			(project "bestboard-v2"
-				(path "/8c11e168-0da2-4000-91ca-89865f7afe4e"
-					(reference "#PWR0156")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MCU_RaspberryPi_and_Boards:Pico")
 		(at 128.27 88.9 0)
 		(unit 1)
@@ -32727,6 +32720,96 @@
 			(project "bestboard-v2"
 				(path "/8c11e168-0da2-4000-91ca-89865f7afe4e"
 					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x09_Socket")
+		(at 88.9 116.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb4d48f3-d813-4ec7-a48e-523019456e9b")
+		(property "Reference" "J2"
+			(at 89.535 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "System Breakout"
+			(at 89.535 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical"
+			(at 88.9 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x09, script generated"
+			(at 88.9 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d004eb1-38f9-4cce-a4fa-4cbbc39c6388")
+		)
+		(pin "2"
+			(uuid "146545b4-4b50-4344-9ea2-c8fd8f94ec82")
+		)
+		(pin "3"
+			(uuid "06c7bf0e-bfce-4dc4-9a7d-4f11aaef522e")
+		)
+		(pin "4"
+			(uuid "db8a84ca-5513-4faa-bc5f-901940136a1b")
+		)
+		(pin "5"
+			(uuid "8018bb97-b1c6-4a6b-a66f-01f81ac02262")
+		)
+		(pin "6"
+			(uuid "3f7e57e5-b635-4ef5-b789-b370953978fa")
+		)
+		(pin "7"
+			(uuid "26196d57-4748-49ba-a4a1-6da7f7e3cfcf")
+		)
+		(pin "8"
+			(uuid "7eb8b674-a203-4462-b7ab-a857f4844f36")
+		)
+		(pin "9"
+			(uuid "253cb7e0-a19d-4b86-b7e6-1822335f44a4")
+		)
+		(instances
+			(project "bestboard-v2"
+				(path "/8c11e168-0da2-4000-91ca-89865f7afe4e"
+					(reference "J2")
 					(unit 1)
 				)
 			)
